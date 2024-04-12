@@ -1,0 +1,43 @@
+.button{
+    background-color: white;
+  border: none;
+  cursor: pointer;
+border-radius: 1px;
+
+  }
+  
+  .button:hover,
+  .button:focus,
+  .button:active {
+    opacity: 0.7;
+    outline: none;
+  }
+  .form{
+padding: 10px;
+display: flex;
+justify-content: center;
+  }
+  .input{
+    padding: 10px;
+    width: 350px;
+    margin-left: 10px;
+    border: none;
+    line-height: 1.6;
+}
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+
+  .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: rgb(89, 89, 219);
+      }
+  
